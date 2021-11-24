@@ -1,0 +1,58 @@
+/************ VARIABLES *******************************/
+body {
+ 
+    /* BORDER */
+    --border_black: 2px solid black;
+    --border_red: 2px solid red;
+
+    /* COLOR */
+    --white-color : #ffffff ;
+    --black-color : #121212 ;
+    --gray-color : #dddddd ;
+    --gold-color : rgb(148, 123, 86) ;
+}
+
+/******************* RESET ***************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Work-Sans";
+}
+a:link {
+    text-decoration: none;
+}
+
+/* IMAGES */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/******************* COLOR **************************/
+.white_color {
+    color: var(--white-color);
+}
+.gold_color {
+    color: var(--gold-color);
+}
+
+
+/******************* BACKGROUND *********************/
+.nav-colored {
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+.nav-transparent {
+    background-color: transparent;
+}
+
+
+/******************* BLOC *****************/
+.container {
+    width: 80%;
+    margin: auto;
+}

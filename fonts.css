@@ -1,0 +1,16 @@
+/******************** FONTS ***********************************************/
+/***** PLAYFAIR  ****************************/
+@font-face {
+    font-family: "Playfair-Display-Regular";
+    src: url("./fonts/Playfair-Display-Regular.ttf");
+}
+@font-face {
+    font-family: "Playfair-Display-Italic";
+    src: url("./fonts/Playfair-Display-Italic.ttf");
+}
+
+/***** WORK SANS  ****************************/
+@font-face {
+    font-family: "Work-Sans";
+    src: url("./fonts/Work-Sans.ttf");
+}
